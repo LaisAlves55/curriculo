@@ -1,0 +1,78 @@
+body{
+    font-size: 20px;
+}
+
+
+header{
+    display: flex;/*definir layout flexivel para alterar os elemento*/
+    align-items: center;/*alinha itens verticalmente*/
+    justify-content: space-between;
+    background-color: palegoldenrod;
+}
+header .profile img{
+    width: 100px;/*largura*/
+    height: 100px;/*altura*/
+    border-radius: 50%;
+    padding: 30%;
+}
+
+header .links a{
+    text-decoration: none;
+    color: rgb(14, 14, 169);
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.descrição{
+    text-align: center;/*centarliza texto*/
+    margin: 20px;/*margem ao redor*/
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+} 
+.bloco{
+    width: 30%;
+    background-color: palegoldenrod;
+    padding: 15px;
+    border: 1px solid rgb(14, 14, 169) ;
+    border-radius: 10px;
+}
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid rgb(14, 14, 169) ;
+    border-radius: 8px;
+}
+form button{
+    background-color: rgb(14, 14, 169);
+    color: aliceblue;
+    padding: 10px 15px;
+    border: 1px;
+}
+.eu{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.bloco{
+    width: 30%;
+    background-color: palegoldenrod;
+    padding: 15px;
+    border: 1px solid rgb(14, 14, 169) ;
+    border-radius: 10px;
+}
