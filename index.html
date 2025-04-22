@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
@@ -11,7 +14,7 @@
       <div class="profile">
         <!--divisão da tela para foto de perfil-->
         <img
-          src="WhatsApp Image 2025-03-28 at 15.49.59.jpeg"
+          src="Image.jpeg"
           alt="foto de perfil"
         />
       </div>
@@ -24,6 +27,7 @@
     </header>
     <section class="descrição">
       <p>Eu</p>
+      <button id="botao">Continue lendo</button>
     </section>
     <section class="conteudo">
       <!--primeiro bloco de informações-->
@@ -43,7 +47,8 @@
     <section class="falacomigo">
       <!--formulario-->
       <h2>Interessado no meu curriculo?</h2>
-      <form>
+      <form  action="https://formspree.io/f/xyzwykap"
+      method="POST">
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" />
         <label for="telefone">Telefone</label>
@@ -53,17 +58,21 @@
     </section>
     <section class="eu">
       <div class="bloco">
+        <div id="card">
         <h2>Sobre mim</h2>
         <p>Eu sou eu</p>
+        </div>
       </div>
       <div class="bloco">
         <h2>Meu canal</h2>
-        <iframe width="315" height="215" src="https://www.youtube.com/embed/BceKbpyFwds?si=RLVnKJl-FxrYgrNx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="315" height="215" src="https://www.youtube.com/embed/tu8-Ix-RLbQ?si=_QyjUogBjkQRQIHu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <div class="bloco">
         <p>Mensagem do dia:</p>
         <h2>"Tudo passa, nem que seja por cima de você"</h2>
       </div>
     </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
